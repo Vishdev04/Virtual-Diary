@@ -1,0 +1,19 @@
+<%- include("../header") -%>
+
+<div class="composeBox">
+
+  <form class="composeForm" action="/diaryEntry" method="post">
+
+    <label for="title">Title :</label><br>
+    <input type="text" name="title" placeholder="Enter the Title for Diary Entry."><br>
+
+    <label for="diaryEntry">Your Diary Entry Here:</label><br>
+    <textarea name="entry" rows="8" cols="80"></textarea><br>
+
+    <button class="btn btn-secondary btn-lg" type="submit" name="button">Compose Diary Entry</button>
+
+  </form>
+
+</div>
+
+<%- include("../footer") -%>

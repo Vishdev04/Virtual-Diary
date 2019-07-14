@@ -1,0 +1,102 @@
+/*
+Diary Heading : font-family: 'Literata', serif;
+Diary Entry   : font-family: 'Source Sans Pro', sans-serif;
+Nav Items     : font-family: 'Roboto Mono', monospace;
+Brand:        : font-family: 'Quicksand', sans-serif; */
+
+.navWhl {
+  padding: 0;
+}
+
+.brnd {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2em;
+  margin-left: 8%;
+}
+
+.navbox {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.2em;
+  margin: 0 8%;
+}
+
+.navIt {
+  margin: 0 25px;
+}
+
+.entryBox {
+  padding: 3.5% 18%;
+}
+
+.entryBox:nth-child(odd) {
+  background: #363636;
+  color: #f0f6ff;
+}
+
+
+
+.title {
+  font-family: 'Literata', serif;
+}
+
+.diaryContent {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1em;
+  text-align: justify;
+}
+
+.composeBox {
+  padding: 0 10%;
+}
+
+.composeForm {
+  width: 70%;
+  margin: 2% auto;
+}
+
+.composeForm label {
+  font-size: 1.6em;
+  margin: 2% 0;
+  font-family: 'Literata', serif;
+}
+
+.composeForm input[type="text"]{
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-bottom: 2%;
+  width: 75%;
+  padding: 10px 10px;
+  height: 40px;
+}
+
+.composeForm textarea {
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 75%;
+  height: 300px;
+}
+
+.composeForm button {
+  margin-top: 2%;
+}
+
+.footer {
+  color: white;
+  text-align: center;
+  padding: 0;
+}
+
+.compose {
+  line-height: 50%;
+  text-align: center;
+  font-size: 4em;
+  font-weight: 400;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  position: fixed;
+  bottom: 8%;
+  right: 5%;
+}
+
+.footer p {
+  margin: 5px;
+}

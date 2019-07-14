@@ -1,0 +1,17 @@
+{
+  "name": "virtualdiary",
+  "version": "1.0.0",
+  "description": "A app for Online Virtual Diary, for your Daily diary Entries.",
+  "main": "serDiary.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vishal Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "jquery": "^3.4.1"
+  }
+}
